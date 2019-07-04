@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'CorpidOT';
+	src: url('fonts/corpidot-webfont.eot');   
+	src: url('fonts/corpidot-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/corpidot-webfont.woff') format('woff'),
+		 url('fonts/corpidot-webfont.ttf') format('truetype'),
+		 url('fonts/corpidot-webfont.svg#CorpidOTRegular') format('svg');
+}
+
+html {
+	overflow-y: scroll; 
+}
+body{font-size:75%; font-family:Tahoma, sans-serif; margin:0px; padding:0px; color:#000; background-color:#fff; line-height:1.3em;}
+
+form, div, table, tr, td, ul, ol, li{margin:0px; padding:0px;}
+
+input, textarea, select {margin:0px; outline:none; font-family: Tahoma;}
+
+input{font-size:1em;}
+
+table{border-collapse:collapse;}
+
+td{vertical-align:middle;}
+
+ul, ol{margin:10px 5px 8px 30px; padding:0px;}
+ul li, ol li{margin-bottom:5px;}
+
+a{color:#00a0ff; outline:none;} 
+
+a:hover{text-decoration:none;}
+
+h1{margin:0 0 15px 0; font-size:2.1em; font-weight:normal; font-family:Calibri, sans-serif;}
+
+h2{margin:0 0 10px 0; font-weight:normal; font-size:1.8em; font-weight:normal; font-family:Calibri, sans-serif; line-height: 1em;}
+
+h3{margin:20px 0 15px 0; font-size:1.4em; font-weight:bold; font-family:Calibri, sans-serif;}
+
+img{border:0px;}
+
+.clear{clear:both; overflow:hidden;	height:0px;	line-height:0px; float:none !important; font-size:0px; padding:0px !important; margin:0px !important; background:none !important;}
+
+.coolTable{margin:0 0 15px 0 !important; font-size: 0.9em; width: 100%; border:1px solid #afccd0;}
+.coolTable td{border:1px solid #afccd0; padding:6px 10px; /*color:#404040;*/}
+.coolTable tr.tbl_h td, .coolTable td.tbl_h{color:#fff; font-weight:bold; padding:16px 10px; border:0; background:#b0ccd0 url(i/tbl_bg.gif) repeat-x;}
+.coolTable tr.tr_tbl_bg td{background-color:#f0f4f5;}
+
+p{margin:0;}
+
+img.img-cont_l {float: left; margin: 4px 15px 15px 0;}
+img.img-cont_r {float: right; margin: 4px 0 15px 15px;}
+
+hr {
+	color: #CCCCCC;
+	margin: 0 0 15px;
+	width: 100%;
+}
+
+/* accordion text */
+	.bl-accordion-head {position:relative; padding:12px 0 13px 27px; text-decoration:none; color:#00A0FF; cursor:pointer;}
+	.bl-accordion-head:hover {text-decoration: underline;}
+	.bl-accordion-head i,
+	.bl-accordion-head .bl-accordion-arr {position:absolute; left:0; top:10px; width:18px; height:19px; display:block; background:url(/bitrix/templates/rushydro/i/accordion-arrs.gif) no-repeat;}
+	.bl-accordion-head.act {color:#000 !important; text-decoration: none;}
+	.bl-accordion-head.act i,
+	.bl-accordion-head.act .bl-accordion-arr {background-position:0 -19px;}
+	#js .bl-accordion-txt {display:none;}
+	.bl-accordion-txt {margin-bottom:20px; padding-left: 27px;}
+/* accordion text */
+/* vestnik */
+	.tbl_vestnik td {padding:10px; background-color:#f9f9f9; text-align:center; border:5px solid #fff; vertical-align:top;}
+	.tbl_vestnik td td {padding:0; border:0;}
+	.vestnik_pdf_link {padding:3px 0 3px 25px; background:url(/pic/icon_pdf.gif) no-repeat;}
+/* vestnik */

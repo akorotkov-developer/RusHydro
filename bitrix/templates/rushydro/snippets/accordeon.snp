@@ -1,0 +1,6 @@
+<div class="bl-accordion"> 
+  <div class="bl-accordion-head"><div class="bl-accordion-arr"></div><b>Header</b></div>
+ 
+  <div class="bl-accordion-txt"> 
+    <p align="justify">Text here...</p>
+   </div>

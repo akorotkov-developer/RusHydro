@@ -1,0 +1,167 @@
+.b-overlay_starwars {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	z-index: 300;
+	display: none;
+}
+.b-logo_rushydro__wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 301;
+	width: 990px;
+	display: none;
+}
+.b-logo_rushydro {
+	height: 88px;
+    left: 15px;
+    position: absolute;
+    top: 46px;
+    width: 287px;
+	background: url('../i/logo-main-white.png') no-repeat;
+}
+.b-banner_starwars__wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 210px;
+	z-index: 301;
+	max-width: 1030px;
+	min-width: 990px;
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+	background: #000 url('./i/starwars-bg.jpg') center center no-repeat;
+	font-family: Calibri, Tahoma, sans-serif;
+	display: none;
+}
+
+.b-banner_starwars__close {
+	position: absolute;
+	right: 22px;
+	top: 22px;
+	height: 23px;
+	width: 23px;
+	background: url('./i/sprite.png') no-repeat;
+	cursor: pointer;
+	z-index: 4;
+}
+
+.b-banner_starwars__volume {
+	position: absolute;
+	right: 17px;
+	top: 70px;
+	background: url('./i/sprite.png') 0 -24px no-repeat;
+	cursor: pointer;
+	z-index: 4;
+	width: 33px;
+	display: none;
+	height: 31px;
+}
+.b-banner_starwars__volume-off {
+	background-position: 0 -57px;
+}
+
+.b-banner_starwars__logo {
+	position: absolute;
+	top: -130px;
+    width: 2400px;
+    display: block;
+    left: -690px;
+    opacity: 1;
+    z-index: 3;
+    display: none;
+}
+.b-banner_starwars__logo-begin {
+	top: 50%;
+	margin-top: -110px;
+    width: 709px;
+    left: 50%;
+    margin-left: -354px;
+}
+
+.b-banner_starwars__news-wrap {
+	width: 760px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -380px;
+	height: 1000px;
+	position: absolute;
+	overflow: hidden;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transform: perspective(298px) rotateX(27deg);
+	-moz-transform: perspective(298px) rotateX(27deg);
+	-ms-transform: perspective(298px) rotateX(27deg);
+	-o-transform: perspective(298px) rotateX(27deg);
+	transform: perspective(298px) rotateX(27deg);
+}
+.b-banner_starwars__news-wrap:after {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	top: 0;
+	height: 450px;
+	width: 100%;
+	content: '';
+	display: block;
+	z-index: 2;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 );
+}
+
+.b-banner_starwars__news {
+	position: relative;
+	width: 100%;
+	left: 0;
+	text-align: justify;
+	text-shadow: 3px 3px 0 #000;
+}
+.b-banner_starwars__news-begin {
+	top: 1000px;
+}
+.b-banner_starwars__news a {
+	color: #FF6900;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+.b-banner_starwars__news a:hover {
+	color: #b97607;
+}
+.b-banner_starwars__news span {
+	font-weight: normal;
+}
+
+.b-banner_starwars__repeat {
+	position: absolute;
+	left: 50%;
+	margin-left: -77px;
+	cursor: pointer;
+	display: none;
+	bottom: 50px;
+	width: 155px;
+	height: 29px;
+	background: url('./i/repeat-button.png') no-repeat;
+}
