@@ -467,6 +467,7 @@ img.img-cont_r {float: right; margin: 4px 0 15px 15px;}
 	padding-right:25px;
 }
 .cont_wrap_det {
+	width: 98%;
 	padding-right:23px;
 	line-height:1.3em;
 }

@@ -246,3 +246,21 @@
                                 Array("MODE"=>"html")
                             );?>
                         <?}?>
+
+                            <?
+                            $arGroups = CUser::GetUserGroup($USER->GetID());
+                            $isGroup = in_array(14, $arGroups);
+                            if (!$isGroup) $isGroup = in_array(1, $arGroups);
+                            if (!$isGroup) {
+                            ?>
+                                <script>
+                                    $( document ).ready(function() {
+                                        $( ".menu_lvl_last_wrap a" ).each(function( index ) {
+                                            console.log( index + ": " + $( this ).text() );
+                                            if ($(this).text() == "Благотворительность и волонтерство") {
+                                                $(this).hide();
+                                            }
+                                        });
+                                    });
+                                </script>
+                            <?}?>

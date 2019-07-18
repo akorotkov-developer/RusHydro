@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/php_interface/hp_import/files.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/template_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/template_styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,58 +19,33 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers/list.php">
+        <entry file="file://$PROJECT_DIR$/hydrology/informer/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="144" column="93" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
-              <folding>
-                <element signature="e#2018#2045#0#HTML" expanded="true" />
-                <element signature="e#2347#2372#0#HTML" expanded="true" />
-                <element signature="e#2650#2670#0#HTML" expanded="true" />
-                <element signature="e#2787#2814#0#HTML" expanded="true" />
-                <element signature="e#3179#3204#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3587#3827#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/components/rushydro/catalog.section.list/templates/list_razdel/template.php">
+        <entry file="file://$PROJECT_DIR$/hydrology/informer/data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="525">
+              <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php">
+        <entry file="file://$PROJECT_DIR$/hydrology/informer/templates/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/gsep_form_moscow.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="420">
+              <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,10 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ОРФОГРАФИЧЕСКАЯ ОШИБКА В ТЕКСТЕ:</find>
-      <find>bx-controls</find>
-      <find>NEWS_SLIDER</find>
-      <find>banners</find>
       <find>header.php</find>
       <find>sustainable_development/</find>
       <find>list.php</find>
@@ -91,10 +63,34 @@
       <find>catalog.s</find>
       <find>rushydro:catalog.section.list</find>
       <find>section.li</find>
+      <find>angara.png</find>
+      <find>/angara.png</find>
+      <find>height</find>
+      <find>left</find>
+      <find>socialotvetstvenost/alms_charity/</find>
+      <find>pass</find>
+      <find>HTTP:Authorization</find>
+      <find>.css</find>
+      <find>http</find>
+      <find>menu_lvl_last_wrap</find>
+      <find>.cont_wrap_det</find>
+      <find>UF_NEED_PASSWORD</find>
+      <find>isPasswordNeeded</find>
+      <find>informer/volga.png</find>
+      <find>Усть</find>
+      <find>data.</find>
+      <find>informer-block</find>
+      <find>level</find>
+      <find>$he</find>
+      <find>ust-ilim</find>
+      <find>printItem</find>
+      <find>Камс</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/polovodie</dir>
+      <dir>$PROJECT_DIR$/bitrix</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/hydrology/informer</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -111,22 +107,30 @@
         <option value="&lt;5dc38ba6-a32b-406e-9e25-ee40d2360444&gt;/polovodie/index.php" />
         <option value="&lt;5dc38ba6-a32b-406e-9e25-ee40d2360444&gt;/polovodie/includes.php" />
         <option value="&lt;5dc38ba6-a32b-406e-9e25-ee40d2360444&gt;/polovodie/inner.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/rushydro/menu.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/rushydro/list.php" />
         <option value="&lt;5dc38ba6-a32b-406e-9e25-ee40d2360444&gt;/handlers/list.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/rushydro/css/style.css" />
         <option value="$PROJECT_DIR$/bitrix/components/rushydro/catalog.section.list/templates/list_razdel/template.php" />
+        <option value="$PROJECT_DIR$/polovodie/templates/river/showList.html" />
+        <option value="&lt;5dc38ba6-a32b-406e-9e25-ee40d2360444&gt;/.htaccess" />
+        <option value="$PROJECT_DIR$/bitrix/templates/rushydro/menu.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/rushydro/header.php" />
         <option value="$PROJECT_DIR$/handlers/list.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/rushydro/template_styles.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" />
+        <option value="$PROJECT_DIR$/sustainable_development/socialotvetstvenost/alms_charity/.htaccess" />
+        <option value="$PROJECT_DIR$/bitrix/php_interface/lib/rhdHandler.class.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php" />
+        <option value="$PROJECT_DIR$/hydrology/informer/data.php" />
+        <option value="$PROJECT_DIR$/hydrology/informer/index.php" />
+        <option value="$PROJECT_DIR$/hydrology/informer/templates/list.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="383" />
-    <option name="y" value="215" />
-    <option name="width" value="1918" />
-    <option name="height" value="1055" />
+    <option name="width" value="1922" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,6 +144,35 @@
           <expand>
             <path>
               <item name="rushidro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rushidro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rushidro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rushidro" type="462c0819:PsiDirectoryNode" />
+              <item name="hydrology" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rushidro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rushidro" type="462c0819:PsiDirectoryNode" />
+              <item name="hydrology" type="462c0819:PsiDirectoryNode" />
+              <item name="informer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rushidro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rushidro" type="462c0819:PsiDirectoryNode" />
+              <item name="hydrology" type="462c0819:PsiDirectoryNode" />
+              <item name="informer_old" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rushidro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rushidro" type="462c0819:PsiDirectoryNode" />
+              <item name="hydrology" type="462c0819:PsiDirectoryNode" />
+              <item name="informer_old" type="462c0819:PsiDirectoryNode" />
+              <item name="i" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rushidro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rushidro" type="462c0819:PsiDirectoryNode" />
               <item name="rushidro" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -156,12 +189,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hydrology" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hydrology" />
+      <recent name="$PROJECT_DIR$/sustainable_development/socialotvetstvenost/alms_charity" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -192,20 +228,32 @@
       <workItem from="1562149887389" duration="6799000" />
       <workItem from="1562169407131" duration="3147000" />
       <workItem from="1562245698044" duration="256000" />
-      <workItem from="1562246030551" duration="14084000" />
+      <workItem from="1562246030551" duration="14914000" />
+      <workItem from="1562407649094" duration="1000" />
+      <workItem from="1562407656949" duration="3441000" />
+      <workItem from="1562474875952" duration="753000" />
+      <workItem from="1562570142613" duration="2278000" />
+      <workItem from="1562584926229" duration="1142000" />
+      <workItem from="1562589201099" duration="2652000" />
+      <workItem from="1562595060686" duration="873000" />
+      <workItem from="1562597453983" duration="615000" />
+      <workItem from="1562600824223" duration="1463000" />
+      <workItem from="1563002055083" duration="3306000" />
+      <workItem from="1563119929517" duration="6000" />
+      <workItem from="1563424118653" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26138000" />
+    <option name="totallyTimeSpent" value="44893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17039403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -215,10 +263,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946752" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.23819743" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -316,26 +365,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="88" column="71" lean-forward="true" selection-start-line="88" selection-start-column="71" selection-end-line="88" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="186" column="17" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/list.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -353,56 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/lib/rhdHandler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="326" column="27" selection-start-line="326" selection-start-column="27" selection-end-line="326" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/php_interface/lib/rhdMemcache.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/gsep_form_moscow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="144" column="93" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
-          <folding>
-            <element signature="e#2018#2045#0#HTML" expanded="true" />
-            <element signature="e#2347#2372#0#HTML" expanded="true" />
-            <element signature="e#2650#2670#0#HTML" expanded="true" />
-            <element signature="e#2787#2814#0#HTML" expanded="true" />
-            <element signature="e#3179#3204#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#3587#3827#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,10 +398,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/gsep_form_moscow.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/ajax.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/scripts/knockout-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/scripts/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/scripts/underscore-min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/mvc/models/Data.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-854">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/mvc/models/Station.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/scripts/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/widget.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/ie6.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/ie7.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/ie8.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="90" column="83" lean-forward="true" selection-start-line="90" selection-start-column="83" selection-end-line="90" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#3587#3827#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sustainable_development/socialotvetstvenost/alms_charity/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="260" column="63" selection-start-line="260" selection-start-column="63" selection-end-line="260" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/lib/rhdHandler.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="468" column="14" selection-start-line="468" selection-start-column="1" selection-end-line="468" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/templates/river/showList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polovodie/libs/captcha/captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/hydrology_schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/templates/item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hydrology/informer/templates/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
