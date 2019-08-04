@@ -8,7 +8,7 @@
         global $USER;
 		foreach($arResult["SECTIONS"] as $arSection):
 			$arSection['NAME'] = parseText($arSection['NAME']);
-		    if ($arSection['NAME'] == "Благотворительность и волонтерство" and !$USER->IsAuthorized()) continue;
+		    //if ($arSection['NAME'] == "Благотворительность и волонтерство" and !$USER->IsAuthorized()) continue;
 		?>
 			<a href="<?=grabLinkFromTitle($arSection['NAME']) ?: $arParams['CURRENT_PATH'].$arSection["CODE"].'/'?>"><?=parseTitle($arSection["NAME"])?></a>
 		<?endforeach?>

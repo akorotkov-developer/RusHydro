@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="5d61fcc0-7caf-4c99-b9a0-3ec31e3ec833" name="RusHidro Соревнования" url="http://89.111.189.66">
+        <fileTransfer host="89.111.189.66" port="22" rootFolder="/var/www/sorevnovanie" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

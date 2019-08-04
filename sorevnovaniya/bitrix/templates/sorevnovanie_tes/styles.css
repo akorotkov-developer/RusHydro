@@ -1,0 +1,37 @@
+body{font-size:80%; font-family:Arial,sans-serif; margin:0px; padding:0px; color:#000; line-height:1;}
+
+body, html{height:100%;}
+
+form, div, table, tr, td, ul, ol, li{margin:0px; padding:0px;}
+
+input, textarea, select {margin:0px; outline:none; font-family: Arial;}
+
+input{font-size:1em;}
+
+td{vertical-align:middle;}
+
+ul{margin:9px 0 20px 20px; padding:0px; list-style-type:disc;}
+ol{margin:9px 0 20px 20px; padding:0px;}
+ol li, ul li{margin-bottom: 14px;}
+
+p{margin:0; line-height:1.2em;}
+
+a{color:#2a79c8; outline:none;} 
+
+a:hover{text-decoration:none;}
+
+h1{margin:0 0 25px 0; font-size: 2em; font-weight: normal; line-height: 1.2em;}
+
+h2{margin:30px 0 1em 0; font-size: 1.7em;  font-weight: normal; line-height: 1.2em;}
+
+h3{font-size: 1.1em; line-height: 1.5em; margin:0 0 1em 0;}
+
+img{border:0px;}
+
+#content table {border-collapse:collapse;}
+#content table th {background-color:#343F85; color:#fff; padding: 5px;}
+#content table td {border:1px solid #ccc; padding:5px;}
+
+#content table.tbl-nobrd td {border:0;}
+
+.clear{clear:both; overflow:hidden;	height:0px;	line-height:0px; float:none !important; font-size:0px; padding:0px !important; margin:0px !important; background:none !important;}

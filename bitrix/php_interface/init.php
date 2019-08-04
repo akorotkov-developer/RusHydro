@@ -126,11 +126,14 @@ function OnAfterUserAddHandler(&$arFields){
 
 function RnsOnBeforeEventAdd(&$event, &$lid, &$arFields)
 {
-
     if(($event == "SUBSCRIBE_CONFIRM") && RhdHandler::isEnglish()){
         $event = "SUBSCRIBE_CONFIRM_EN";
 	}
 
+	if ($event == "FORM_FILLING_SIMPLE_FORM_3_VD4PF"){
+		$lid = "s1";
+		$arFields["FORM_TITLE"] = $_POST["FORM_TITLE"];
+	}
 
 }
 //error_reporting(E_ALL);

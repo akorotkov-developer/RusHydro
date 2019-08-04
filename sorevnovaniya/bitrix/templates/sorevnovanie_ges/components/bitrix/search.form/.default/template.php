@@ -1,0 +1,3 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<script>$(function(){$("#btn-submit").click(function(){$(this).parents("form").submit();})})</script>
+<form action="<?=$arResult["FORM_ACTION"]?>"><input type="text" name="q" value="" class="inp" placeholder="Поиск по сайту" maxlength="50" /><div id="btn-submit"><?=GetMessage("BSF_T_SEARCH_BUTTON");?></div><input name="s" class="submit" type="submit" value="<?=GetMessage("BSF_T_SEARCH_BUTTON");?>" /></form>

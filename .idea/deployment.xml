@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="RushHidro">
     <serverData>
+      <paths name="RusHidro Соревнования">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/sorevnovaniya" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="RushHidro">
         <serverdata>
           <mappings>

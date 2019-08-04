@@ -142,7 +142,7 @@ if (
     );
 }
 
-if (RhdHandler::getJustPath() === "sustainable_development/socialotvetstvenost/alms_charity/") {
+if (RhdHandler::getJustPath() === "sustainable_development/alms_charity/") {
     $APPLICATION->IncludeFile(
         $APPLICATION->GetTemplatePath('alms_charity.php'),
         array(),
@@ -168,10 +168,37 @@ if (RhdHandler::getJustPath() === "sustainable_development/socialotvetstvenost/a
             RhdHandler::$ogDesc = su::cutOnSpace(strip_tags($lastSection['DESCRIPTION']), 150);
         }
         echo $lastSection['DESCRIPTION'];
+
+
+        //Показать форму "Сделать предложение"
+        if ($lastSection["UF_FEEDBACK_FORM"] == 1) {
+            $APPLICATION->IncludeComponent("rushydro:form.result.new", "comments", array(
+                "WEB_FORM_ID" => "6",
+                "IGNORE_CUSTOM_TEMPLATE" => "N",
+                "USE_EXTENDED_ERRORS" => "Y",
+                "FORM_CAPTION" => "",
+                "SEF_MODE" => "N",
+                "SEF_FOLDER" => "/",
+                "CACHE_TYPE" => "A",
+                "CACHE_TIME" => "3600",
+                "LIST_URL" => '/' . RhdHandler::getJustPath(),
+                "EDIT_URL" => '/' . RhdHandler::getJustPath(),
+                "SUCCESS_URL" => '/' . RhdHandler::getJustPath(),
+                "CHAIN_ITEM_TEXT" => "",
+                "CHAIN_ITEM_LINK" => "",
+                "VARIABLE_ALIASES" => array(
+                    "WEB_FORM_ID" => "WEB_FORM_ID",
+                    "RESULT_ID" => "RESULT_ID",
+                )
+            ),
+                false
+            );
+        }
+
     }
 }
 
-if (RhdHandler::getJustPath() != "sustainable_development/socialotvetstvenost/alms_charity/") {
+if (RhdHandler::getJustPath() != "sustainable_development/alms_charity/") {
 
 
     if ($filesElement = CIBlockElement::GetList(array(), array('SECTION_ID' => $lastSection['ID'], 'CODE' => '_files'))->GetNext()) {

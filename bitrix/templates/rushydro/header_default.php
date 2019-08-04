@@ -253,7 +253,7 @@
                             if (!$isGroup) $isGroup = in_array(1, $arGroups);
                             if (!$isGroup) {
                             ?>
-                                <script>
+                                <!--<script>
                                     $( document ).ready(function() {
                                         $( ".menu_lvl_last_wrap a" ).each(function( index ) {
                                             console.log( index + ": " + $( this ).text() );
@@ -262,5 +262,5 @@
                                             }
                                         });
                                     });
-                                </script>
+                                </script>-->
                             <?}?>

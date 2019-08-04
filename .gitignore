@@ -1,0 +1,75 @@
+/bitrix/*
+/test/*
+/.htaccess
+# User uploads
+/upload/*
+!/upload/.gitkeep
+/sitemap/*
+!/sitemap/.gitkeep
+/aia/*
+/tools/*
+/crl/*
+/imports/*
+/logos/*
+/img/*
+/pic/*
+/res/files/*
+!/bitrix/templates/rushydro/right.informer.php
+!/bitrix/php_interface/lib/util.php
+!/bitrix/components/rushydro/search.page/component.php
+!/bitrix/templates/rushydro/main.banner.esc.php
+!/bitrix/templates/rushydro/main.filial.php
+!/bitrix/templates/rushydro/components/bitrix/news.list/main_banners.esc/
+!/bitrix/templates/rushydro/header_international.php
+!/bitrix/templates/rushydro/header_default.php
+
+# geography
+/geography/i/*
+/geography_old/*
+/geography_test/*
+
+# hydrology
+/hydrology/informer/config.inc.php
+/hydrology/informer/i/*
+
+# mobile
+/m/style/i/*
+/m/assets/*
+/m/storage/*
+
+# ntk
+/ntk/_cache/*
+/ntk/files/*
+/ntk/images/*
+/ntk/img/*
+/ntk/inc/config.php
+/ntk/tmp/*
+
+# polovodie2018
+/polovodie2018/_cache/*
+/polovodie2018/files/*
+/polovodie2018/images/*
+/polovodie2018/img/*
+/polovodie2018/informer/i/*
+/polovodie2018/tmp/*
+/polovodie2018/inc/config.php
+
+# polovodie
+/polovodie/_cache/*
+/polovodie/admin/_cache/*
+/polovodie/js/_cache/*
+/polovodie/files/*
+/polovodie/images/*
+/polovodie/img/*
+/polovodie/informer/i/*
+/polovodie/tmp/*
+/polovodie/inc/config.php
+
+# images videos
+/videos_int/*
+/videos/*
+/file/*
+/images/*
+/imagesToImport/*
+/images_100712/*
+/nsk/files/*

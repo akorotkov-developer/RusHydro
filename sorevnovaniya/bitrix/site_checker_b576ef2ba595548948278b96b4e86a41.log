@@ -1,0 +1,169 @@
+2018-Feb-17 00:06:18 Наличие необходимых модулей php (check_php_modules): Ok
+Успешно
+2018-Feb-17 00:06:18 Обязательные параметры PHP (check_php_settings): Fail
+Параметр allow_call_time_pass_reference = off, требуется on
+
+2018-Feb-17 00:06:18 Значения переменных сервера (check_server_vars): Ok
+Успешно
+2018-Feb-17 00:06:18 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Успешно. Сайт работает в UTF кодировке
+2018-Feb-17 00:06:18 Установка параметра pcre.backtrack_limit (check_backtrack_limit): Ok
+Успешно
+2018-Feb-17 00:06:18 Настройки сайтов (check_sites): Ok
+Успешно
+2018-Feb-17 00:06:18 Работа с сокетами (check_socket): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:18 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:18 Загрузка файла (check_upload): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:18 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:18 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:18 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:18 Отправка почты (check_mail): Ok
+Успешно
+2018-Feb-17 00:06:19 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2018-Feb-17 00:06:19 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2018-Feb-17 00:06:19 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Фактическое ограничение памяти (check_memory_limit): Ok
+14% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Фактическое ограничение памяти (check_memory_limit): Ok
+28% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Фактическое ограничение памяти (check_memory_limit): Ok
+42% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Фактическое ограничение памяти (check_memory_limit): Ok
+57% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Фактическое ограничение памяти (check_memory_limit): Ok
+71% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:19 Фактическое ограничение памяти (check_memory_limit): Ok
+85% done
+Connection to www.sorevnovanie.rushydro.ru:80
+== Request ==
+GET /bitrix/admin/site_checker.php?memory_test=Y&unique_id=2ac9594e28c7ff2077730ab8a56ff335&max=511 HTTP/1.1
+Host: www.sorevnovanie.rushydro.ru
+
+
+== Response ==
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 16 Feb 2018 21:06:19 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 210
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.5.9-1ubuntu4.13
+Vary: Accept-Encoding
+
+== Body ==
+
+Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048577 bytes) in /var/www/sorevnovanie/bitrix/modules/main/admin/site_checker.php on line 89
+
+==========
+Успешно
+2018-Feb-17 00:06:20 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Не менее 384 М
+2018-Feb-17 00:06:20 Сохранение сессии (check_session): Ok
+50% done
+Успешно
+2018-Feb-17 00:06:20 Сохранение сессии (check_session): Ok
+Успешно
+2018-Feb-17 00:06:20 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:20 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:20 Работа с файлами кеша (check_cache): Ok
+Успешно
+2018-Feb-17 00:06:20 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2018-Feb-17 00:06:20 HTTP авторизация (check_http_auth): Ok
+Connection to www.sorevnovanie.rushydro.ru:80
+Успешно
+2018-Feb-17 00:06:20 Создание и запуск файла (check_exec): Fail
+Connection to www.sorevnovanie.rushydro.ru:80
+== Request ==
+GET /bitrix/site_check_exec.php HTTP/1.1
+Host: www.sorevnovanie.rushydro.ru
+
+
+== Response ==
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 16 Feb 2018 21:06:20 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 359
+Connection: keep-alive
+Location: http://sorevnovanie.rushydro.ru/bitrix/site_check_exec.php
+
+== Body ==
+
+
+301 Moved Permanently
+
+Moved Permanently
+The document has moved here.
+
+Apache/2.4.7 (Ubuntu) Server at www.sorevnovanie.rushydro.ru Port 80
+
+
+==========
+Ошибка
+2018-Feb-17 00:06:20 Модуль suhosin отключен (check_suhosin): Ok
+Успешно
+2018-Feb-17 00:06:21 Модуль Apache mod_security отключен (check_security): Ok
+Успешно
+2018-Feb-17 00:06:21 Константа BX_CRONTAB (не должна быть определена) (check_bx_crontab): Ok
+Успешно
+2018-Feb-17 00:06:21 Разделитель дробной части (check_divider): Ok
+Успешно
+2018-Feb-17 00:06:21 Значение параметра precision (не менее 10) (check_precision): Ok
+Успешно
+2018-Feb-17 00:06:21 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2018-Feb-17 00:06:21 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2018-Feb-17 00:06:21 Версия MySQL сервера (check_mysql_bug_version): Ok
+Успешно
+2018-Feb-17 00:06:22 Время на БД и веб сервере (check_mysql_time): Ok
+Успешно
+2018-Feb-17 00:06:22 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2018-Feb-17 00:06:22 Значение auto_increment в MySQL (check_mysql_increment): Ok
+Успешно
+2018-Feb-17 00:06:22 Кодировка соединения (check_mysql_connection_charset): Fail
+CHARSET=utf8, COLLATION=utf8_general_ci
+Сравнение соединения с базой данных должно быть utf8_unicode_ci, текущее значение: utf8_general_ci.
+2018-Feb-17 00:06:22 Кодировка базы данных (check_mysql_db_charset): Warning
+Не удалось проверить из за ошибки кодировки соединения
+2018-Feb-17 00:06:22 Кодировки таблиц в БД (check_mysql_table_charset): Warning
+Не удалось проверить из за ошибки кодировки соединения
