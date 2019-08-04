@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/rushydro/catalog.section.list/templates/list_razdel/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/rushydro/catalog.section.list/templates/list_razdel/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/php_interface/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/alms_charity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/list.php" afterDir="false" />
-    </list>
+    <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,7 @@
       <workItem from="1564641142405" duration="25000" />
       <workItem from="1564847776717" duration="2836000" />
       <workItem from="1564916242477" duration="15000" />
-      <workItem from="1564921420842" duration="255000" />
+      <workItem from="1564921420842" duration="506000" />
     </task>
     <servers />
   </component>
