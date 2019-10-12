@@ -5,13 +5,19 @@ $APPLICATION->SetTitle("Участники");?>
 		$("#team-det table tr:even").addClass("tbl-row-bg");
 	});
 </script>
- 
+ <?
+if ( $_GET["iblockid"] ) {
+    $iblockid = $_GET["iblockid"];
+} else {
+    $iblockid = 26;
+}
+?>
 <div id="team-det"> <?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
 	"teams",
 	Array(
 		"IBLOCK_TYPE" => "teams",
-		"IBLOCK_ID" => "41",
+		"IBLOCK_ID" => $iblockid,
 		"ELEMENT_ID" => $_REQUEST["ELEMENT_ID"],
 		"ELEMENT_CODE" => $_REQUEST["ELEMENT_CODE"],
 		"CHECK_DATES" => "Y",

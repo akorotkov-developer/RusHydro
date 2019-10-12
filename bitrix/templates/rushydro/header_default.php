@@ -76,8 +76,13 @@
                             RhdHandler::isEnglish()
                                 ? RhdPath::createUrl(RhdHandler::getMainSiteCode())
                                 : RhdPath::createUrl(RhdHandler::getEnglishSiteCode());*/
+                if ($APPLICATION->GetCurPage() == "/corporate/general-meeting/forthcoming/subscribe/") {
+                    $url .= "corporate/general-meeting/forthcoming/subscribe";
+                } elseif ($APPLICATION->GetCurPage() == "/corporate/general-meeting/forthcoming/subscribe") {
+                    $url .= "corporate/general-meeting/forthcoming/subscribe/";
+                }
                 ?>
-                <div class="lang">
+                <div class="lang sdfjsdfjkl">
                     <?php if (RhdHandler::isEnglish()) { ?>
                         <a href="<?=$url?>">РУС</a><span>ENG</span>
                     <?php } else { ?>

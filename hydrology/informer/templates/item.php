@@ -9,6 +9,11 @@
 					<div class="popup-trigger">&nbsp;</div>
 					<div class="popup-info">			
 						<div class="legend">
+                            <?
+                            if ($pritok == 0) {
+                                $pritok = "нет данных";
+                            }
+                            ?>
 							<p><span class="l-red"></span>ФПУ &mdash; <b><?=$fpu;?> м</b></p>
 							<p><span class="l-green"></span>НПУ &mdash; <b><?=$npu;?> м</b></p>
 							<p><span class="l-black"></span>УМО &mdash; <b><?=$umo;?> м</b></p>

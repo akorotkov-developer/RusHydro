@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="" />
+    <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hydrology/informer/templates/item.php" beforeDir="false" afterPath="$PROJECT_DIR$/hydrology/informer/templates/item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorevnovaniya/bitrix/templates/sorevnovanie_tes/components/bitrix/news.list/teams/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovaniya/bitrix/templates/sorevnovanie_tes/components/bitrix/news.list/teams/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorevnovaniya/tes/teams/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovaniya/tes/teams/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorevnovaniya/tes/teams/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovaniya/tes/teams/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +95,16 @@
       <workItem from="1564641142405" duration="25000" />
       <workItem from="1564847776717" duration="2836000" />
       <workItem from="1564916242477" duration="15000" />
-      <workItem from="1564921420842" duration="506000" />
+      <workItem from="1564921420842" duration="4735000" />
+      <workItem from="1565874917254" duration="395000" />
+      <workItem from="1565961693469" duration="1729000" />
+      <workItem from="1566379503547" duration="2232000" />
+      <workItem from="1566830513491" duration="678000" />
+      <workItem from="1566910771349" duration="2650000" />
+      <workItem from="1566975083641" duration="774000" />
+      <workItem from="1566977026551" duration="260000" />
+      <workItem from="1568627230455" duration="653000" />
+      <workItem from="1570802426833" duration="599000" />
     </task>
     <servers />
   </component>

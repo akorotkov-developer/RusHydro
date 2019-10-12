@@ -3,7 +3,8 @@ $APPLICATION->SetTitle("Участники");?>
 <script type="text/javascript">
 	voteUrl = '/like.php';
 </script>
- <?$APPLICATION->IncludeComponent(
+ <?
+$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section.list",
 	".default",
 	Array(
@@ -23,5 +24,4 @@ $APPLICATION->SetTitle("Участники");?>
 	)
 );?> 
 <br />
- <a href="http://sorevnovanie.rushydro.ru/tes/teams/arkhiv_uchastnikov_pervykh_korporativnykh_sorevnovaniy_operativnogo_personala_tes/" class="link-back" style="background:rgb(230,106,37); padding-left:14px;" > Участники Первых корпоративных соревнований оперативного персонала ТЭС с поперечными связями </a>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+ <a href="http://sorevnovanie.rushydro.ru/tes/teams/arkhiv_uchastnikov_pervykh_korporativnykh_sorevnovaniy_operativnogo_personala_tes/" class="link-back" style="background:rgb(230,106,37); padding-left:14px;" > Участники Первых корпоративных соревнований оперативного персонала ТЭС с поперечными связями </a><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

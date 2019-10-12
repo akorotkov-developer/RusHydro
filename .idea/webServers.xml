@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="5dc38ba6-a32b-406e-9e25-ee40d2360444" name="RushHidro" url="http://89.111.189.66">
-        <fileTransfer host="89.111.189.66" port="22" rootFolder="/var/www/bitrix" accessType="SFTP">
+        <fileTransfer host="89.111.189.66" port="22" rootFolder="/var/www/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
