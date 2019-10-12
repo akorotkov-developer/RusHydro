@@ -68,56 +68,52 @@ $APPLICATION->SetTitle("Медиа");
 
 <div class="video-content">
 	<?
-	if ($_GET["tst"] == "tst") {
-		\CModule::IncludeModule('iblock');
+    \CModule::IncludeModule('iblock');
 
-		$rs = CIBlockElement::GetList(
-			array("SORT"=>"ASC"), //Сортировка
-			array("IBLOCK_ID" => 35, "ACTIVE" => "Y"), //Фильтр значению полей
-			false, //Массив полей группировка
-			false, //Параметр для постраничной навигации
-			array("ACTIVE_FROM") //Массив возвращаемых полей
-		);
+    $rs = CIBlockElement::GetList(
+        array("SORT"=>"ASC"), //Сортировка
+        array("IBLOCK_ID" => 35, "ACTIVE" => "Y"), //Фильтр значению полей
+        false, //Массив полей группировка
+        false, //Параметр для постраничной навигации
+        array("ACTIVE_FROM") //Массив возвращаемых полей
+    );
 
-		$arRes = array();
-		while($ar = $rs->GetNext()) {
-			$date = new DateTime($ar["ACTIVE_FROM"]);
-			$tempDate = $date->format("Y");
-			$arRes[] = $tempDate;
-		}
+    $arRes = array();
+    while($ar = $rs->GetNext()) {
+        $date = new DateTime($ar["ACTIVE_FROM"]);
+        $tempDate = $date->format("Y");
+        $arRes[] = $tempDate;
+    }
 
-		$arRes = array_unique($arRes);
+    $arRes = array_unique($arRes);
 
-		if ($_GET["videoYear"]) {
-			if ($_GET["videoYear"] != 'all') {
-				$yearStart = (int)$_GET["videoYear"];
-				$yearEnd = (int)$_GET["videoYear"] + 1;
-				$filter_ex = array(">=DATE_ACTIVE_FROM" => "01.01." . $yearStart, '<=DATE_ACTIVE_FROM' => "01.01." . $yearEnd);
-			}
-		}
-		?>
-		<select name="video_years">
-			<option disabled selected>Выберите год</option>
-			<?
-			$page = $APPLICATION->GetCurPageParam("videoYear=all", array("videoYear"));
-			if ($_GET["videoYear"] == "all") {
-				$selected = "selected";
-			}
-			?>
-			<option value="all" data-href="<?=$page?>" <?=$selected?>>Все года</option>
-			<?
-			foreach ($arRes as $item) {
-				$page = $APPLICATION->GetCurPageParam("videoYear=" . $item, array("videoYear"));
-				if ($_GET["videoYear"] == $item) {$selected = "selected";} else {$selected = "";}
-				?>
-				<option value="<?=$item?>" data-href="<?=$page?>" <?=$selected?>><?=$item?></option>
-				<?
-			}
-			?>
-		</select>
-		<?
-	}
-	?>
+    if ($_GET["videoYear"]) {
+        if ($_GET["videoYear"] != 'all') {
+            $yearStart = (int)$_GET["videoYear"];
+            $yearEnd = (int)$_GET["videoYear"] + 1;
+            $filter_ex = array(">=DATE_ACTIVE_FROM" => "01.01." . $yearStart, '<=DATE_ACTIVE_FROM' => "01.01." . $yearEnd);
+        }
+    }
+    ?>
+    <select name="video_years">
+        <option disabled selected>Выберите год</option>
+        <?
+        $page = $APPLICATION->GetCurPageParam("videoYear=all", array("videoYear"));
+        if ($_GET["videoYear"] == "all") {
+            $selected = "selected";
+        }
+        ?>
+        <option value="all" data-href="<?=$page?>" <?=$selected?>>Все года</option>
+        <?
+        foreach ($arRes as $item) {
+            $page = $APPLICATION->GetCurPageParam("videoYear=" . $item, array("videoYear"));
+            if ($_GET["videoYear"] == $item) {$selected = "selected";} else {$selected = "";}
+            ?>
+            <option value="<?=$item?>" data-href="<?=$page?>" <?=$selected?>><?=$item?></option>
+            <?
+        }
+        ?>
+    </select>
 
 	<script>
 		$( "select[name=video_years]" ).change(function() {
