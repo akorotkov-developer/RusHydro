@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/rushydro/header_default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hydrology/informer/templates/item.php" beforeDir="false" afterPath="$PROJECT_DIR$/hydrology/informer/templates/item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorevnovaniya/bitrix/templates/sorevnovanie_tes/components/bitrix/news.list/teams/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovaniya/bitrix/templates/sorevnovanie_tes/components/bitrix/news.list/teams/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorevnovaniya/tes/teams/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovaniya/tes/teams/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorevnovaniya/tes/teams/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovaniya/tes/teams/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorevnovanie/ws/media/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovanie/ws/media/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +101,7 @@
       <workItem from="1566977026551" duration="260000" />
       <workItem from="1568627230455" duration="653000" />
       <workItem from="1570802426833" duration="599000" />
+      <workItem from="1570866442430" duration="4349000" />
     </task>
     <servers />
   </component>
