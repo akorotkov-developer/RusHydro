@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О чемпионате",
+		"about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Участники",
+		"teams/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Результаты чемпионата",
+		"result/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Медиа",
+		"media/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости",
+		"news/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

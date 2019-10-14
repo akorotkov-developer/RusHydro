@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f2be899-136c-4603-8b3b-737b1757ed10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorevnovanie/bitrix/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovanie/bitrix/php_interface/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorevnovanie/bitrix/templates/wsr/components/bitrix/news/teams/bitrix/news.list/.default/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/sorevnovanie/bitrix/templates/wsr/components/bitrix/news/teams/bitrix/news.list/.default/result_modifier.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1568627230455" duration="653000" />
       <workItem from="1570802426833" duration="599000" />
       <workItem from="1570866442430" duration="5475000" />
-      <workItem from="1571054774181" duration="1431000" />
+      <workItem from="1571054774181" duration="3347000" />
     </task>
     <servers />
   </component>

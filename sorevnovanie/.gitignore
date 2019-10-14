@@ -1,0 +1,23 @@
+/bitrix/
+/test/
+/.htaccess
+# User uploads
+/upload/*
+!/upload/.gitkeep
+/sitemap/*
+!/sitemap/.gitkeep
+!/bitrix/php_interface/migrations/*
+
+# Composer
+/vendor/
+/composer.phar
+/.idea/*
+/upload
+/eng/upload/*
+/eng/upload
+/.idea/workspace.xml
+/.idea
+
+!/bitrix/php_interface/migrations/
+/cmsmagazine8d08fe430f251b698765ff99e382c209.txt
+/*.gz

@@ -14,7 +14,7 @@ foreach ($arResult['ITEMS'] as $arItem) {
 
 }
 
-//\COption::SetOptionString("runetsoft.settings","UF_VOTING","Y");
+\COption::SetOptionString("runetsoft.settings","UF_VOTING","Y");
 $arResult['VOTING'] = \COption::GetOptionString("runetsoft.settings", "UF_VOTING");
 //$arResult['VOTING'] = "Y";
 

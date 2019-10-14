@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"worldskills.ru", 
+		"https://worldskills.ru/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"hydroschool.ru", 
+		"http://hydroschool.ru/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"vestnik-rushydro.ru", 
+		"https://vestnik-rushydro.ru/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
