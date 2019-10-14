@@ -1,0 +1,13 @@
+.table-doc{
+    text-align:justify;
+    border:none;
+}
+.table-doc .image{
+    border-image: initial;
+}
+.table-doc .name{
+    padding-left: 10px; border-image: initial;
+}
+.table-doc tr{
+    height: 35px;
+}

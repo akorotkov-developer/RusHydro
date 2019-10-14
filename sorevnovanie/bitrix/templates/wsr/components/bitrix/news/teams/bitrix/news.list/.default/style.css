@@ -1,0 +1,17 @@
+.fans-card-text {
+    font-family: UbuntuMedium, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0;
+    width: 75%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #0066a6;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
