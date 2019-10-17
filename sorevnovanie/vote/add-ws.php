@@ -8,6 +8,7 @@ if($_POST['addVote'] && $_POST['id']) {
 
     $vote = new \Runetsoft\VoteTable;
 
+    //mail("89065267799@mail.ru", "Тема письма", print_r($_POST['id'], true));
     $vote->addVote($_POST['id']);
 }
 

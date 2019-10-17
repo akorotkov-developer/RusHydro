@@ -14,7 +14,9 @@ foreach ($arResult['ITEMS'] as $arItem) {
 
 }
 
+//\COption::SetOptionString("runetsoft.settings","UF_VOTING","N");
 $arResult['VOTING'] = \COption::GetOptionString("runetsoft.settings", "UF_VOTING");
+//$arResult['VOTING'] = "Y";
 
 if (is_object($cp)) {
     $cp->arResult['VOTE'] = $vote->getCountByElementID($arResult['LIST_ID']);

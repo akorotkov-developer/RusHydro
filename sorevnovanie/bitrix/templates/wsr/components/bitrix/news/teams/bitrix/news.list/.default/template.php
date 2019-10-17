@@ -15,7 +15,7 @@
             </a>
             <div class="fans-card__system-text">
 
-                <?if($voting): ?>
+                <?if($voting == "Y"): ?>
                     <p class="fans-card__likes-text" data-toggle="modal" data-target="#modalVote"><?= GetMessage("ADD") ?></p>
                 <?else:?>
                     <p class="fans-card-text"><?= GetMessage("RESULT") ?></p>

@@ -13,7 +13,7 @@ require_once dirname(__FILE__).'/wunderground.php';
 require_once dirname(__FILE__).'/ReCaptcha.php';
 require_once dirname(__FILE__).'/vote.php';
 
-define('VOTING_ENABLED', true);
+define('VOTING_ENABLED', false);
 define('WUNDERGROUND_KEY', '77a59e96c83d38fe');
 define('LIKE_SALT', 'Hl5349HHllg34#$&');
 define('SALT_COOKIE', '__utmj');
